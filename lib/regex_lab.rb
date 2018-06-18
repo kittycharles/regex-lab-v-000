@@ -3,6 +3,7 @@ def starts_with_a_vowel?(word)
       true
     else
       false
+    end
     #   true
     # else !word.scan(/\b[qwrtypsdfghjklzxcvbnm]/i)
     #   false
