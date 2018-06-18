@@ -4,14 +4,10 @@ def starts_with_a_vowel?(word)
     else
       false
     end
-    #   true
-    # else !word.scan(/\b[qwrtypsdfghjklzxcvbnm]/i)
-    #   false
-    # end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.scan(/\bun\Sing/)
+  text.scan(/\bun|ing/b/)
 end
 
 def words_five_letters_long(text)
